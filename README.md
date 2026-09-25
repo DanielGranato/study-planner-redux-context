@@ -1,6 +1,10 @@
 # Study Planner
 
+![Capa do Study Planner com tarefas pendentes, concluídas e analytics](docs/home-cover.png)
+
 A personalized study plan manager built with **React**, **Redux**, and the **Context API**.
+
+**Live demo:** [https://danielgranato.github.io/study-planner-redux-context/](https://danielgranato.github.io/study-planner-redux-context/)
 
 ## 📖 About
 
@@ -63,10 +67,6 @@ study-planner/
 ```
 
 *(adjust to match your actual folder structure)*
-
-## 📸 Screenshots
-
-*(add screenshots or a GIF of the app here once it's ready)*
 
 ## 🎯 Learning Objectives
 

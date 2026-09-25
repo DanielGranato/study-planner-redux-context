@@ -1,4 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
+import bgDark from '../../assets/bg-dark.png';
+import bgLight from '../../assets/bg-light.png';
 
 const initialState = {
 	theme: 'dark',
@@ -23,7 +25,7 @@ export const selectTheme = (state) => {
 	const isDarkTheme = state.theme.theme === 'dark';
 	return {
 		isDark: isDarkTheme,
-		background: isDarkTheme ? "url('/src/assets/bg-dark.png')" : "url('/src/assets/bg-light.png')",
+		background: isDarkTheme ? `url('${bgDark}')` : `url('${bgLight}')`,
 		backgroundColor: isDarkTheme ? '#1f2937' : '#f3f4f6',
 		cardBg: isDarkTheme ? 'bg-card-dark' : 'bg-white',
 		textPrimary: isDarkTheme ? 'text-white' : 'text-gray-800',
